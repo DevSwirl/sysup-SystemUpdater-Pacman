@@ -12,17 +12,26 @@ Install the binary in /usr/local/bin and run `sysup` from anywhere.
 - sudo
 
 Install Rust if needed:
+
 sudo pacman -S rust
 
 ## Installation
 
 Clone the repository:
 git clone https://github.com/DevSwirl/sysup-SystemUpdater-Pacman.git
+
+
 cd sysup-SystemUpdater-Pacman
+
+
 cd sysup
+
+
 cd src
 
-Build the project:
+
+
+Build the project:#
 rustc sysup.rs
 
 Transfer file for system-wide use:
