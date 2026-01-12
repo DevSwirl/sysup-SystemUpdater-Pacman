@@ -18,6 +18,7 @@ sudo pacman -S rust
 ## Installation
 
 Clone the repository:
+
 git clone https://github.com/DevSwirl/sysup-SystemUpdater-Pacman.git
 
 
