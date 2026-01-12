@@ -32,16 +32,19 @@ cd src
 
 
 
-Build the project:#
+Build the project:
+
 rustc sysup.rs
 
 Transfer file for system-wide use:
+
 sudo mv /home/{YOUR_NAME}/Desktop/sysup-SystemUpdater-Pacman/sysup/src/sysup /usr/local/bin/
 
 
 ## Usage
 
 Run:
+
 sysup
 
 You will be prompted for your sudo password.
@@ -49,7 +52,9 @@ You will be prompted for your sudo password.
 ## Development
 
 Run without installing:
+
 While sitting in sysup directory run -
+
 cargo run
 
 ## Notes
