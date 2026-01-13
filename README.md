@@ -13,9 +13,13 @@ Install the binary in /usr/local/bin and run `sysup` from anywhere.
 
 Install Rust if needed:
 
-sudo pacman -S rust
+sudo pacman -S rustup
+
+rustup default stable 
 
 ## Installation
+
+cd Desktop
 
 Clone the repository:
 
