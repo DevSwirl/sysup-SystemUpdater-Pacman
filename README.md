@@ -11,13 +11,14 @@ Install the binary in /usr/local/bin and run `sysup` from anywhere.
 - Rust (cargo, rustc)
 - sudo
 
+
+## Installation
+
 Install Rust if needed:
 
 sudo pacman -S rustup
 
 rustup default stable 
-
-## Installation
 
 cd Desktop
 
